@@ -12,4 +12,8 @@
  * Text Domain: wprincipiante-ejemplo
  * Domain Path: /languages/
  */
+add_action('init','hello_world');
+  function hello_world(){
+    echo "Hello World";
+  }
 defined( 'ABSPATH' ) or die( '¡Fail!' );
